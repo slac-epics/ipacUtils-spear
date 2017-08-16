@@ -1,0 +1,3 @@
+# Acromag IP320 Analog Input Module Driver Support
+driver(drvXy5320)
+registrar(drvXy5320Registrar)

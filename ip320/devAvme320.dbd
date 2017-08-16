@@ -1,0 +1,3 @@
+# Acromag IP320 Analog Input Module Device Support
+device(ai,       INST_IO, devAiXy5320, "ACROMAG-IP320")
+device(waveform, INST_IO, devWfXy5320, "ACROMAG-IP320")

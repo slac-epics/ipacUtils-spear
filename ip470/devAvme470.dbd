@@ -1,0 +1,7 @@
+# Avme440 Binary Input/Output Module Device Support
+device(bi,         INST_IO, devBiAvme470,         "ACROMAG-IP470")
+device(bo,         INST_IO, devBoAvme470,         "ACROMAG-IP470")
+device(mbbo,       INST_IO, devMbboAvme470,       "ACROMAG-IP470")
+device(mbboDirect, INST_IO, devMbboDirectAvme470, "ACROMAG-IP470")
+device(mbbi,       INST_IO, devMbbiAvme470,       "ACROMAG-IP470")
+device(mbbiDirect, INST_IO, devMbbiDirectAvme470, "ACROMAG-IP470")

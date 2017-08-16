@@ -1,0 +1,3 @@
+# Acromag IP445 Binary Output Module Driver Support
+driver(drvXy2445)
+registrar(drvXy2445Registrar)

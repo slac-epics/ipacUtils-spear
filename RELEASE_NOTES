@@ -1,0 +1,29 @@
+#==============================================================
+#
+#  Name: RELEASE_NOTES
+#
+#  Rem:  This files describes release notes for 
+#        the SPEAR ipacUtils epics module.   
+#
+#	ipacUtils contains the following ipac module support:
+#	* avme9660 - utilities used by other ip support
+#	* ip231	   - Acromag DAC
+#	* ip320	   - Acromag 12 bit High Density ADC 
+#	* ip330	   - Acromag ADC
+#	* ip440	   - Acromag 32-Channel Isolated Digital Input
+#	* ip445	   - Acromag 32-Channel Isolated SSR Digital Output 
+#	* ip470	   - Acromag 48-Channel TTL Digital Input/Output 
+#
+#--------------------------------------------------------------
+
+ipacUtils-Rx-x-x  M. Dunning 28-Jul-2017
+    - This is ipacUtils-R0-0-1, built with base R3.15.5-1.0 from lcls
+    - ip330/devBoIP330.c: add "#include <errlog.h>" for errlogPrintf
+
+ipacUtils-R0-0-1: 05/9/2013
+	* ip440 and ip445 - add basicIoOps to ensure order of operations.
+	* ip231 and ip330 - add errlog.h inclusion.
+ipacUtils-R0-0-0: 10/8/2012
+	* ip231		R2-2-0
+	* ip330	  	R2-2-0
+	* others  	R1-0

@@ -1,0 +1,3 @@
+# Avme470 Binary Input/Output Module Driver Support
+driver(drvAvme470)
+registrar(drvAvme470Registrar)

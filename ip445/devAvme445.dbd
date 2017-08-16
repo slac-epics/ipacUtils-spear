@@ -1,0 +1,4 @@
+# Acromag IP445 Binary Output Module Device Support
+device(bo,         INST_IO, devBoXy2445,         "ACROMAG-IP445")
+device(mbbo,       INST_IO, devMbboXy2445,       "ACROMAG-IP445")
+device(mbboDirect, INST_IO, devMbboDirectXy2445, "ACROMAG-IP445")

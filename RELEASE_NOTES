@@ -16,8 +16,11 @@
 #
 #--------------------------------------------------------------
 
-ipacUtils-Rx-x-x  M. Dunning 28-Jul-2017
-    - This is ipacUtils-R0-0-1, built with base R3.15.5-1.0 from lcls
+R0.0.1-0.0.1  M. Dunning 15-Nov-2018
+    - Upgrade IPAC module
+
+R0.0.1-0.0.0  M. Dunning 28-Jul-2017
+    - This is R0.0.1-0.0.0, built with base R3.15.5-1.0 from lcls
     - ip330/devBoIP330.c: add "#include <errlog.h>" for errlogPrintf
 
 ipacUtils-R0-0-1: 05/9/2013

@@ -1,1 +1,8 @@
-RELEASE_R3.15.5-1.1
+#RELEASE Location of external products
+
+-include $(TOP)/../../RELEASE_SITE_7.0.3.1-1.0
+
+IPAC=$(EPICS_MODULES)/ipac/R2.15-1.0.0
+MISCUTILS_SPEAR=$(EPICS_SITE_TOP_SPEAR)/epics/modules/miscUtils/miscUtils-spear-base7.0
+
+EPICS_BASE=$(BASE_SITE_TOP)/$(BASE_MODULE_VERSION)

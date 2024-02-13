@@ -8,7 +8,7 @@
 
 #include <epicsVersion.h>
 
-#if EPICS_VERSION>=3 && EPICS_REVISION>=14
+#if (EPICS_VERSION>=7) || (EPICS_VERSION>=3 && EPICS_REVISION>=14)
 #include <epicsExport.h>
 #endif
 
@@ -174,7 +174,7 @@ struct IP330_DEV_SUP_SET
     DEVSUPFUN       write_bo;
 } devBoIP330 = {5, NULL, NULL, init_bo, NULL, write_bo};
 
-#if EPICS_VERSION>=3 && EPICS_REVISION>=14
+#if (EPICS_VERSION>=7) || (EPICS_VERSION>=3 && EPICS_REVISION>=14)
 epicsExportAddress(dset, devBoIP330);
 #endif
 

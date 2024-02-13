@@ -8,7 +8,7 @@
 
 #include <epicsVersion.h>
 
-#if EPICS_VERSION>=3 && EPICS_REVISION>=14
+#if (EPICS_VERSION>=7) || (EPICS_VERSION>=3 && EPICS_REVISION>=14)
 #include <epicsExport.h>
 #endif
 
@@ -206,7 +206,7 @@ struct IP330_DEV_SUP_SET
     DEVSUPFUN       special_linconv;
 } devAiIP330 = {6, NULL, NULL, init_ai, ai_ioint_info, read_ai, ai_lincvt};
 
-#if EPICS_VERSION>=3 && EPICS_REVISION>=14
+#if (EPICS_VERSION>=7) || (EPICS_VERSION>=3 && EPICS_REVISION>=14)
 epicsExportAddress(dset, devAiIP330);
 #endif
 

@@ -6,5 +6,5 @@ include
 lib
 CVS
 build*.log
-
+RELEASE_SITE*
 

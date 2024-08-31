@@ -1,6 +1,6 @@
 #RELEASE Location of external products
 
--include $(TOP)/../../RELEASE_SITE_7.0.3.1-1.0
+-include $(TOP)/../../RELEASE_SITE_7.0.3.1-1.0_sdf
 
 IPAC=$(EPICS_MODULES)/ipac/R2.15-1.0.0
 MISCUTILS_SPEAR_MODULE_VER=R1.0.0
